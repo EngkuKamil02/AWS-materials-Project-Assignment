@@ -1,6 +1,6 @@
 # AWS-materials-Project-Assignment
 Team Members:
-Engku Ahmad Kamil Bin Engku Dandam
+Engku Ahmad Kamil Bin Engku Dandam |
 Nur Izzah Binti Mohd Razali
 
 Task for this group project:
