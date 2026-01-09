@@ -1,0 +1,113 @@
+┌──────────────────────────────────────────────────────────────────┐
+│                      USER JOURNEY FLOW                            │
+└──────────────────────────────────────────────────────────────────┘
+
+1. USER REGISTRATION & LOGIN
+   ┌─────────┐
+   │  User   │
+   └────┬────┘
+        │ 1. Register/Login
+        ▼
+   ┌────────────┐
+   │  Browser   │
+   └────┬───────┘
+        │ 2. HTTP POST
+        ▼
+   ┌──────────────────┐
+   │  EC2 Web Server  │
+   │  (Apache + PHP)  │
+   └────┬─────────────┘
+        │ 3. Validate credentials
+        ▼
+   ┌─────────────┐
+   │  RDS MySQL  │
+   │  (Check DB) │
+   └─────────────┘
+        │ 4. Session created
+        ▼
+   User logged in ✓
+
+2. PHOTO UPLOAD FLOW
+   ┌─────────┐
+   │  User   │
+   └────┬────┘
+        │ 1. Select photo + title
+        ▼
+   ┌────────────┐
+   │  Browser   │
+   └────┬───────┘
+        │ 2. POST with file
+        ▼
+   ┌──────────────────┐
+   │  EC2 Web Server  │
+   │  upload.html     │
+   └────┬─────────────┘
+        │ 3. Validate file
+        ▼
+   ┌──────────────────┐
+   │  PHP Backend     │
+   │  upload_process  │
+   └────┬─────────────┘
+        │ 4. AWS SDK upload
+        ▼
+   ┌─────────────┐
+   │  Amazon S3  │
+   │  /uploads/  │
+   └─────────────┘
+        │ 5. Photo stored
+        ▼
+   ┌──────────────────┐
+   │  PHP Backend     │
+   └────┬─────────────┘
+        │ 6. Save metadata
+        ▼
+   ┌─────────────┐
+   │  RDS MySQL  │
+   │  photos tbl │
+   └─────────────┘
+        │ 7. Success
+        ▼
+   ┌────────────┐
+   │  Browser   │
+   │  Gallery   │
+   └────────────┘
+
+3. GALLERY VIEW FLOW
+   ┌─────────┐
+   │  User   │
+   └────┬────┘
+        │ 1. Visit gallery.html
+        ▼
+   ┌────────────┐
+   │  Browser   │
+   └────┬───────┘
+        │ 2. Request photos
+        ▼
+   ┌──────────────────┐
+   │  EC2 Web Server  │
+   │  gallery.js      │
+   └────┬─────────────┘
+        │ 3. Fetch get_photos.php
+        ▼
+   ┌──────────────────┐
+   │  PHP Backend     │
+   └────┬─────────────┘
+        │ 4. Query database
+        ▼
+   ┌─────────────┐
+   │  RDS MySQL  │
+   └─────────────┘
+        │ 5. Return metadata + S3 URLs
+        ▼
+   ┌────────────┐
+   │  Browser   │
+   └────┬───────┘
+        │ 6. Load images from S3
+        ▼
+   ┌─────────────┐
+   │  Amazon S3  │
+   │  /uploads/  │
+   └─────────────┘
+        │ 7. Display images
+        ▼
+   Photos displayed ✓
