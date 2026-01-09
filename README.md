@@ -50,7 +50,7 @@ See [INSTALLATION.md](INSTALLATION.md) for complete setup guide.
 ![Upload](screenshots/login.png)
 
 ### Dashboard
-![Upload](screenshots/dashboard.png)
+![Upload](screenshots/Dashboard.png)
 ![Upload](screenshots/6.png)
 
 ### Upload
