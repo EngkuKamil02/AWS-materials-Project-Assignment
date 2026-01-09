@@ -2,7 +2,7 @@
 
 # Course Information
 - **Course:** IIB43203 Cloud Computing
-- **Institution:** [Your University]
+- **Institution:** [Universiti Kuala Lumpur Malaysian Institute of Information Technology ]
 - **Group Members:**
   1. ENGKU AHMAD KAMIL BIN ENGKU DANDAM - (52224224256)
   2. NUR IZZAH BINTI MOHD RAZALI - (52224224189)
