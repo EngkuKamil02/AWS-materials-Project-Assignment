@@ -16,6 +16,7 @@ Create a web application or a website based on Compute, Storage, Networking, and
 
 # Live Demo
 🌐 **Website:** [http://13.212.19.248] 
+
 📺 **Video Presentation:** [YouTube Link]
 
 # AWS Services Used
@@ -49,8 +50,5 @@ See [INSTALLATION.md](INSTALLATION.md) for complete setup guide.
 ![Upload](screenshots/upload.png)
 
 
-## License
+# License
 MIT License
-```
-
-**Screenshot this!** ✅
