@@ -12,9 +12,9 @@
 Create a web application or a website based on Compute, Storage, Networking, and Database AWS Services
 
 # Live Demo
-🌐 **Website:** [http://13.212.19.248] 
+🌐 **Website:** (http://13.212.19.248) 
 
-📺 **Video Presentation:** [YouTube Link]
+📺 **Video YouTube Presentation & demostration :** (https://youtu.be/tGGP7JKoflE?feature=shared)
 
 # AWS Services Used
 - ✅ EC2 (Web Server)
