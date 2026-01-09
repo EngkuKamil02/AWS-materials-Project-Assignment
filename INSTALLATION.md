@@ -240,8 +240,11 @@ After success:
 http://<EC2-Public-IP>
 ```
 - Register user
+- login
+- dashboard
 - Upload photo
 - View gallery
+- log out
 
 ---
 
