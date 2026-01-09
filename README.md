@@ -1,13 +1,12 @@
 # AWS-materials-Project-Assignment
 
 # Course Information
-- **Course:** IIB43203 Cloud Computing
-- **Institution:** [Universiti Kuala Lumpur Malaysian Institute of Information Technology ]
-- **Group Members:**
+**Course:** IIB43203 Cloud Computing
+**Institution:** Universiti Kuala Lumpur Malaysian Institute of Information Technology
+**Group Members:**
   1. ENGKU AHMAD KAMIL BIN ENGKU DANDAM - (52224224256)
   2. NUR IZZAH BINTI MOHD RAZALI - (52224224189)
   3. AMIR FARIMAN BIN ABDULLAH HARIS - (52224224337)
-  
 
 # Task for this group project:
 Create a web application or a website based on Compute, Storage, Networking, and Database AWS Services
@@ -34,7 +33,7 @@ Create a web application or a website based on Compute, Storage, Networking, and
 - AWS cloud integration
 
 # Architecture
-[Add your architecture diagram here]
+<img width="611" height="340" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/06f24bbb-6756-4662-aede-55857b149341" />
 
 ## Installation
 See [INSTALLATION.md](INSTALLATION.md) for complete setup guide.
