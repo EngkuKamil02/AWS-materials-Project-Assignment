@@ -4,10 +4,10 @@
 - **Course:** IIB43203 Cloud Computing
 - **Institution:** [Your University]
 - **Group Members:**
-  1. [Name 1] - [Matrix No] - Infrastructure Lead
-  2. [Name 2] - [Matrix No] - Database Lead
-  3. [Name 3] - [Matrix No] - Application Lead
-  4. [Name 4] - [Matrix No] - DevOps Lead
+  1. ENGKU AHMAD KAMIL BIN ENGKU DANDAM - (52224224256)
+  2. NUR IZZAH BINTI MOHD RAZALI - (52224224189)
+  3. AMIR FARIMAN BIN ABDULLAH HARIS - (52224224337)
+  
 
 # Task for this group project:
 Create a web application or a website based on Compute, Storage, Networking, and Database AWS Services
@@ -15,7 +15,7 @@ Create a web application or a website based on Compute, Storage, Networking, and
 # Title Project: Cloud Photo Gallery - AWS Project
 
 # Live Demo
-🌐 **Website:** http://YOUR-EC2-PUBLIC-IP
+🌐 **Website:** [http://13.212.19.248] 
 📺 **Video Presentation:** [YouTube Link]
 
 # AWS Services Used
@@ -48,11 +48,6 @@ See [INSTALLATION.md](INSTALLATION.md) for complete setup guide.
 ### Upload
 ![Upload](screenshots/upload.png)
 
-## Team Contributions
-- **Member 1:** VPC setup, Security groups, IAM roles
-- **Member 2:** RDS setup, Database design
-- **Member 3:** Frontend development, UI/UX
-- **Member 4:** Backend development, AWS integration
 
 ## License
 MIT License
