@@ -33,7 +33,7 @@ Create a web application or a website based on Compute, Storage, Networking, and
 - AWS cloud integration
 
 # Architecture
-<img width="611" height="340" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/06f24bbb-6756-4662-aede-55857b149341" />
+(Architecture Diagram.png) 
 
 ## Installation
 See [INSTALLATION.md](INSTALLATION.md) for complete setup guide.
