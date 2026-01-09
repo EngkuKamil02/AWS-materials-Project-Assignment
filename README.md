@@ -32,7 +32,8 @@ Create a web application or a website based on Compute, Storage, Networking, and
 
 # Architecture
 <img width="611" height="340" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/d625e4e7-7f7d-457f-9314-f93840a929e6" /> 
-(Main Diagram)
+[https://github.com/EngkuKamil02/AWS-materials-Project-Assignment/blob/b11b5affc281729233629d1d738ba44f624670b6/Main%20Diagram]
+
 ## Installation
 See [INSTALLATION.md](INSTALLATION.md) for complete setup guide.
 
