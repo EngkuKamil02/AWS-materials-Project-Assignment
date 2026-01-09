@@ -38,14 +38,27 @@ See [INSTALLATION.md](INSTALLATION.md) for complete setup guide.
 
 ## Screenshots
 ### Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/1.png)
+![Homepage](screenshots/2.png)
+![Homepage](screenshots/3.png)
+![Homepage](screenshots/4.png)
 
-### Gallery
-![Gallery](screenshots/gallery.png)
+### Register
+![Upload](screenshots/register.png)
+
+### login
+![Upload](screenshots/login.png)
+
+### Dashboard
+![Upload](screenshots/dashboard.png)
+![Upload](screenshots/6.png)
 
 ### Upload
 ![Upload](screenshots/upload.png)
 
+### Gallery
+![Gallery](screenshots/gallery.png)
+![Gallery](screenshots/8.png)
 
 # License
 MIT License
