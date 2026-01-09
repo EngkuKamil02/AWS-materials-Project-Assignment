@@ -1,4 +1,4 @@
-# AWS-materials-Project-Assignment
+# Title Project: Cloud Photo Gallery - AWS Project
 
 # Course Information
 **Course:** IIB43203 Cloud Computing
@@ -10,8 +10,6 @@
 
 # Task for this group project:
 Create a web application or a website based on Compute, Storage, Networking, and Database AWS Services
-
-# Title Project: Cloud Photo Gallery - AWS Project
 
 # Live Demo
 🌐 **Website:** [http://13.212.19.248] 
